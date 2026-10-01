@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✨ Introduction Maker</h1>
+        <p class="subtitle">Create your professional self-introduction</p>
+
+        <div class="form-box">
+
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <input type="text" id="place" placeholder="Enter your city / village">
+
+            <input type="text" id="course" placeholder="Enter your course">
+
+            <input type="text" id="percentage" placeholder="Enter your percentage">
+
+            <input type="text" id="school" placeholder="Enter your school name">
+
+            <input type="text" id="hobby" placeholder="Enter your hobby">
+
+            <input type="text" id="achievement" placeholder="Enter your achievement">
+
+            <input type="text" id="family" placeholder="Enter your family details">
+
+            <input type="text" id="shortGoal" placeholder="Enter your short-term goal">
+
+            <input type="text" id="longGoal" placeholder="Enter your long-term goal">
+
+            <input type="text" id="strength" placeholder="Enter your strengths">
+
+            <input type="text" id="weakness" placeholder="Enter your weakness">
+
+            <button onclick="generateIntroduction()">
+                Generate Introduction
+            </button>
+
+        </div>
+
+        <div class="result-box">
+
+            <h2>📄 Your Introduction</h2>
+
+            <p id="result">
+                Your introduction will appear here...
+            </p>
+
+            <button onclick="copyIntroduction()">
+                📋 Copy Introduction
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
